@@ -5,14 +5,14 @@ type Tarea = {
   completada: boolean;
 };
 
-// Lista inicial de tareas
+//  inicial de tareas
 let tareas: Tarea[] = [
   { id: 1, nombre: "Estudiar JavaScript", completada: false },
   { id: 2, nombre: "Practicar TypeScript", completada: false },
   { id: 3, nombre: "Hacer ejercicios", completada: false },
 ];
 
-// Función flecha para cambiar el estado de una tarea usando .map()
+// Función flecha para .map()
 const cambiarEstadoTarea = (lista: Tarea[], id: number): Tarea[] => {
   return lista.map((tarea) =>
     tarea.id === id ? { ...tarea, completada: !tarea.completada } : tarea
