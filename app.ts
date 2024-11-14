@@ -10,7 +10,7 @@ let tareas: Tarea[] = [
   { id: 1, nombre: "Estudiar JavaScript", completada: false },
   { id: 2, nombre: "Practicar TypeScript", completada: false },
   { id: 3, nombre: "Hacer ejercicios", completada: false },
-  //estos son los objetos de ejemplo
+  //estos son los objetos de ejemplo1
 ];
 
 // Función flecha para .map()
